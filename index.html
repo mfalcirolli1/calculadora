@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> CALCULADORA </h1>
+    </header>
+
+    <section>
+
+        
+
+        <div id="res">
+            ... 
+        </div>
+
+        
+
+        <div id="content">
+            <p>
+                <input type="number" id="num1" class="num"> <br/>
+                <input type="button" value="x" id="x" class="op" onclick="multiplicar()">
+                <input type="button" value="÷" id="div" class="op" onclick="dividir()">
+                <input type="button" value="+" id="mais" class="op" onclick="somar()">
+                <input type="button" value="−" id="menos" class="op" onclick="subtrair()">
+                <input type="number" id="num2" class="num">
+
+
+    
+            </p>                        
+            <input type="button" value="Limpar" id="limp" class="limp" onclick="limpar()">
+        </div>
+        
+    </section>
+
+    <footer>
+        <p> &copy; MatheusFalcirolli </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
